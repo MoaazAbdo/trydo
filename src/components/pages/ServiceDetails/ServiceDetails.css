@@ -1,0 +1,72 @@
+.details {
+    padding: 60px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details .image {
+    margin-bottom: 30px;
+}
+.details .image img {
+    max-width: 100%;
+}
+.details .info {
+    padding: 0 20px;
+    margin: auto 0;
+
+}
+.details .info .list {
+    list-style: none;
+}
+.details .info p {
+    line-height: 1.8;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: rgba(29,29,36,.75);
+}
+.details .info h3 {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+.details .info .list .list-item::before {
+    
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: rgba(29,29,36,.75);
+    left: 0;
+    top: 10px;
+}
+.details .info .list .list-item {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    position: relative;
+    padding-left: 20px;
+}
+@media screen and (max-width: 775px) {
+    .details {
+        padding: 60px 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .details {
+        padding: 60px 15px;
+    }
+    .details .info p {
+        font-size: 16px;
+    }
+    .details .info .list .list-item {
+        font-size: 16px;
+    }
+    .details .info h3 {
+        font-size: 27px;
+    }
+}

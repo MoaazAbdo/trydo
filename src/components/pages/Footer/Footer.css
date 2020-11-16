@@ -1,0 +1,102 @@
+.footer {
+    background-color: #1d1d24;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 40px 40px;
+}
+.footer .logo {
+    width: 110px;
+}
+.footer .logo img {
+    max-width: 100%
+}
+.footer .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social .list-item:hover a {
+    transition: all 0.4s ease-in-out;
+    background-color: #f9004d;
+    border:2px solid #f9004d;
+    color: #fff;
+}
+.footer .social .list-item:hover {
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.footer .social .list-item a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    border:2px solid rgba(198,201,216,.75);
+    border-radius: 50%;
+    font-size: 16px;
+    color: rgba(198,201,216,.75);
+    transition: all 0.4s ease-in-out;
+}
+.footer .copy p {
+    color: #c6c9d8;
+    font-size: 16px;
+    opacity: .75;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        grid-template-columns: auto auto 
+    }
+    .footer .copy {
+        width: 150%;
+        text-align: center;
+        margin: 20px auto 10px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 775px) {
+    .footer .copy {
+        width: 170%;
+    }
+    .footer .copy p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .footer {
+        grid-template-columns: auto;
+        justify-content: center; 
+    }
+    .footer .logo {
+        text-align: center;
+        width: 100%;
+    }
+    .footer .logo img {
+        max-width: 150px;
+    }
+
+    .footer .social {
+        margin: 20px 0;
+        justify-content: space-around;
+    }
+    .footer .copy {
+        width: 100%;
+        margin: 20px auto 10px;
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        padding: 20px;
+    }
+    .footer .logo img {
+        max-width: 100px;
+    }
+    .footer .social .list-item a {        
+        padding: 8px;
+        margin: 0 10px;
+        font-size: 14px;
+    }
+}

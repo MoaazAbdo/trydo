@@ -1,0 +1,18 @@
+.goTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #f9004d;
+    color: #fff;
+    z-index: 1000;
+    border-radius: 50%;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.goTop:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+    color: #f9004d;
+}

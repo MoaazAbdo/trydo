@@ -1,0 +1,88 @@
+.funs {
+    padding: 80px 0
+}
+.funs .fun-head h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.funs .fun-contents {
+    padding: 0 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.funs .fun-contents .f-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 72px;
+    color: #f9004d;
+    position: relative;
+    font-weight: 700;
+}
+.funs .fun-contents .f-content h1::after {
+    content: "+";
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.funs .fun-contents .f-content p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 5%;
+    text-align: center;
+    color: rgba(29,29,36,.75);
+}
+
+@media screen and (max-width: 800px) {
+  
+    .funs .fun-contents {
+        padding: 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 771px) {
+    
+    .funs .fun-contents {
+        padding: 0 20px;
+        grid-template-columns: auto auto;
+    }
+    .funs .fun-contents .f-content {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .funs {
+        padding: 80px 0 20px 0
+    }
+
+    .funs .fun-contents {
+        grid-template-columns: auto;
+    }
+
+    .funs .fun-contents .f-content {
+        margin-bottom: 80px;
+    }
+
+    .funs .fun-contents .f-content h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 365px) {
+    .funs .fun-head h1 {
+        font-size: 34px;
+    }
+    .funs .fun-contents {
+        padding: 0 5px;
+        
+    }
+    .funs .fun-contents .f-content p {
+        padding: 0 3%;
+    }
+}

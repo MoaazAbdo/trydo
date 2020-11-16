@@ -1,0 +1,114 @@
+.landing-page {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px );
+}
+.landing {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.landing img {
+  
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+.landing-over {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+   
+    
+}
+.landing-over h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 900;
+    background: linear-gradient(145deg,#f81f01,#ee076e);
+    -webkit-background-clip : text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.landing-over p {
+    color: #e4e4e4;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 2;
+    margin: 25px 0;
+    font-weight: 300;
+}
+
+#info {
+    height: 1000vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 771px) {
+    .landing-over h1 {
+        font-size: 75px;
+    }
+    .landing-over p {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .landing-over h1 {
+        font-size: 60px;
+    }
+    .landing-over p {
+        font-size: 18px;
+    }
+    .btn--large {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .landing-over h1 {
+        font-size: 50px;
+    }
+    .landing-over p {
+        font-size: 17px;
+    }
+    .btn--large {
+        font-size: 17px;
+        padding: 8px 25px;
+    }
+
+    
+
+}
+@media screen and (max-width: 280px) {
+    .landing-over h1 {
+        font-size: 40px;
+    }
+    .landing-over p, .btn--large  {
+        font-size: 16px;
+    }
+   
+}

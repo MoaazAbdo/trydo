@@ -1,0 +1,165 @@
+.pricing {
+    padding: 60px 70px;
+    background-color: #f8f9fc;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+.pricing .pricing-table {
+    border: 2px solid #f42958;
+    padding: 40px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+ 
+   
+}
+
+.pricing .pricing-table .pr-head {
+    text-align: center;
+    border-bottom: 1px solid rgba(248,31,1,.1);
+    padding-bottom: 20px;
+}
+.pricing .pricing-table .pr-head h4 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.pricing .pricing-table .pr-head .price span {
+    display: block;
+}
+.pricing .pricing-table .pr-head .price .amount {
+    font-size: 100px;
+    color: #f81f01;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.pricing .pricing-table .pr-head .price span:last-child{
+    font-size: 17px;
+    color: #f9004d;
+}
+.pricing .pricing-table .pr-body {
+    margin-bottom: 48px;
+    text-align: left;
+    margin-top: 30px;
+}
+.pricing .pricing-table .pr-body .pricing-list {
+    list-style: none;
+}
+.pricing .pricing-table .pr-body .pricing-list .list-item .icon {
+    color: #f9004d;
+    margin-right: 5px;
+}
+.pricing .pricing-table .pr-body .pricing-list .list-item {
+    color: #7e7e7e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: inherit;
+    margin-bottom: 10px;
+}
+.pricing .pricing-table .pr-footer {
+    text-align: center;
+}
+.pricing .pricing-table .pr-footer a { 
+    text-decoration: none;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    border-radius: 7px;
+    padding: 7px 12px;   
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.pricing .pricing-table.active {
+    background-color: #f81f01;
+    color: #fff;
+    background-image: -webkit-linear-gradient(305deg,#f81f01,#ee076e);
+}
+.pricing .pricing-table.active .pr-head .price span {
+    color: #fff;
+}
+.pricing .pricing-table.active .pr-body .list-item {
+    color: #fff;
+}
+.pricing .pricing-table.active .pr-body .list-item .icon {
+    color: #fff;
+}
+.pricing .pricing-table.active .pr-footer a {
+    background-color: #fff;
+    color: #f9004d;
+    border: 2px solid #fff;
+}
+.pricing .pricing-table:hover {
+    background-color: #f81f01;
+    
+    background-image: -webkit-linear-gradient(305deg,#f81f01,#ee076e);
+}
+.pricing .pricing-table:hover .pr-head .price span ,
+.pricing .pricing-table:hover .pr-head h4 ,
+.pricing .pricing-table:hover .pr-body .list-item  ,
+.pricing .pricing-table:hover .pr-body .list-item .icon {
+    color: #fff;
+}
+.pricing .pricing-table:hover .pr-footer {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-11px);
+}
+.pricing .pricing-table:hover .pr-footer a {
+    background-color: #fff;
+    color: #f9004d;
+    border: 2px solid #fff;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .pricing {
+      grid-template-columns: auto auto;
+        
+    }
+}
+
+
+@media screen and (max-width: 775px) {
+    
+    .pricing {
+        padding: 60px 80px;
+        grid-template-columns: auto;
+    }
+  
+}
+@media screen and (max-width: 500px) {
+    
+    .pricing {
+        padding: 60px 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .pricing {
+        padding: 60px 20px;
+    }
+    .pricing .pricing-table .pr-head .price .amount {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 300px) {
+    
+    .pricing .pricing-table {
+        padding: 20px;
+    }
+    .pricing .pricing-table .pr-head h4 {
+        font-size: 25px;
+    }
+    .pricing .pricing-table .pr-head .price .amount {
+        font-size: 70px;
+    }
+   
+    .pricing .pricing-table .pr-footer a {
+        font-size: 14px;
+        letter-spacing: normal;
+        padding: 7px;
+    }
+}

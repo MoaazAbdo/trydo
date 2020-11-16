@@ -1,0 +1,38 @@
+.btn--medium, .btn--large, .btn--mobile {
+    background-color: transparent;
+    color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+}
+.btn--large {
+    background-color: #f9004d;
+    border: 1px solid #f9004d;
+    padding: 12px 40px;
+}
+.btn--large:hover {
+    background-color: transparent;
+    border: 1px solid #e4e4e4;
+}
+.btn--mobile {
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 700;
+}
+.btn--medium:hover, .btn--mobile:hover {
+    background-color: #f9004d;
+    border: 1px solid #f9004d;
+    color: #fff;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+.upper {
+    text-transform: uppercase;
+}

@@ -1,0 +1,148 @@
+/* Start Team  */
+.team {
+    padding: 80px 0;
+    background-color: #f8f9fc;
+}
+.team .team-head {
+    padding: 0 70px
+}
+.team .team-head h1 {
+    font-size: 60px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.team .team-head p {
+    font-weight: 400;
+    color: #717173;
+    max-width: 600px;
+    line-height: 2;
+    font-size: 20px;
+}
+.team .team-content {
+    margin: 50px 0;
+    padding: 0 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+   
+}
+.team .team-content .t-content {
+    max-width: 100%;
+    position: relative;
+}
+.team .team-content .t-content img {
+    max-width: 100%;
+}
+
+.team .team-content .over {
+    background: linear-gradient(180deg,#fc004d 0,#000);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+.team .team-content .t-content:hover .over {
+    opacity: 0.9;
+}
+.team .team-content .over .icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.team .team-content .over .icon a:nth-child(2) {
+    padding: 0 20px;
+}
+
+.team .team-content .over .info {
+    position: absolute;
+    bottom: 30px;
+}
+.team .team-content .over .info {
+    color: #fff;
+}
+.team .team-content .over .info h3 {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.team .team-content .over .info p {
+    letter-spacing: 1px;
+    color: #c6c9d8;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    .team .team-content {
+        grid-template-columns: auto auto;
+    }
+
+    .team .team-content .t-content {
+        max-width: 90%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 771px) {
+    
+
+    .team .team-content, .team .team-head {
+        padding: 0 20px;
+    }
+        
+    .team .team-content .over .info h3 {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .team .team-head h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .team {
+        padding: 80px 0 20px 0;
+    }
+    .team .team-content {
+        grid-template-columns: auto ;
+    }
+
+    .team .team-content .t-content {
+        max-width: 100%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .team .team-content .over {
+        padding: 20px 15px;
+    }
+
+
+    .team .team-content .over .info {
+        bottom: 15px;
+    }
+    .team .team-content .over .info h3 {
+        margin-bottom: 15px;
+        font-size: 17px;
+    }
+
+    .team .team-head h1 {
+        font-size: 40px;
+    }
+    
+    
+    .team .team-head p {
+        font-size: 17px;
+    }
+
+}
+
+/* End Team  */
