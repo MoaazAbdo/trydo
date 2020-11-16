@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/trydo/static/css/main.47771735.chunk.css",
+    "main.js": "/trydo/static/js/main.2473ac71.chunk.js",
+    "main.js.map": "/trydo/static/js/main.2473ac71.chunk.js.map",
+    "runtime-main.js": "/trydo/static/js/runtime-main.0dee39f3.js",
+    "runtime-main.js.map": "/trydo/static/js/runtime-main.0dee39f3.js.map",
+    "static/css/2.ed112887.chunk.css": "/trydo/static/css/2.ed112887.chunk.css",
+    "static/js/2.b3b55618.chunk.js": "/trydo/static/js/2.b3b55618.chunk.js",
+    "static/js/2.b3b55618.chunk.js.map": "/trydo/static/js/2.b3b55618.chunk.js.map",
+    "index.html": "/trydo/index.html",
+    "static/css/2.ed112887.chunk.css.map": "/trydo/static/css/2.ed112887.chunk.css.map",
+    "static/css/main.47771735.chunk.css.map": "/trydo/static/css/main.47771735.chunk.css.map",
+    "static/js/2.b3b55618.chunk.js.LICENSE.txt": "/trydo/static/js/2.b3b55618.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/trydo/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dee39f3.js",
+    "static/css/2.ed112887.chunk.css",
+    "static/js/2.b3b55618.chunk.js",
+    "static/css/main.47771735.chunk.css",
+    "static/js/main.2473ac71.chunk.js"
+  ]
+}
